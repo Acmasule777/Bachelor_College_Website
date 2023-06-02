@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --main-color:#8e44ad;
+   --black:#222;
+   --white:#fff;
+   --light-black:#777;
+   --light-white:#fff9;
+   --dark-bg:rgba(0,0,0,.7);
+   --light-bg:#eee;
+   --border:.1rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+   width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+   background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+   background-color: var(--main-color);
+}
+
+section{
+   padding:5rem 10%;
+}
+
+@keyframes fadeIn {
+   0%{
+      transform: scale(0);
+      opacity: 0;
+   }
+}
+
+.heading{
+   background-size: cover !important;
+   background-position: center !important;
+   padding-top: 10rem;
+   padding-bottom:15rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heading h1{
+   font-size: 20rem;
+   text-transform: uppercase;
+   color:var(--white);
+   text-shadow: var(--text-shadow);
+}
+
+
+
+
+.heading-title{
+   text-align: center;
+   margin-bottom: 3rem;
+   font-size: 6rem;
+   text-transform: uppercase;
+   color:var(--black);
+}
+
+.header{
+   position: sticky;
+   top:0; left:0; right:0;
+   z-index: 1000;
+   background-color: var(--white);
+   display: flex;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   box-shadow: var(--box-shadow);
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header .logo{
+   font-size: 2.5rem;
+   color:var(--black);
+}
+
+.header .navbar a{
+   font-size: 2rem;
+   margin-left: 2rem;
+   color:var(--black);
+}
+
+.header .navbar a:hover{
+   color:var(--main-color);
+}
+.font{
+   font-size: 3rem;
+   text-align:center;
+   gap: 2px;
+   margin:top:0; left:0; right:0;
+}
+.style-css{
+   font-size:2rem;
+   align-items: center;
+   padding-top: 1rem0;
+   color:#777;
+}
+.style-css h3{
+font-size:3rem;
+color:var(--black)
+}
+.style-css p{
+   font-size:2rem;
+   color: #777;
+   padding:1rem0;
+   line-height: 2;
+}
+.style-css.content{
+   font-size:2rem;
+   text-transform:uppercase;
+
+   }
+   
+
+   .about-us{
+      font-size:2rem;
+      align-items: center;
+      padding-top: 1rem0;
+      color:#777;    
+   }
+   .about-us h3{
+      font-size:3rem;
+   }
+   .about-us p{
+      font-size:2rem;
+   color: #777;
+   padding:1rem0;
+   line-height: 2;
+   }
+   .about-us.content{
+      font-size: 2rem;
+      text-transform: uppercase;
+   }
+   .department{
+      word-wrap: 2rem;
+      font-size: 2rem;
+   }
+   .font{
+      font-size:2rem;
+      align-items: center;
+      padding-top: 1rem0;
+      color:#777; 
+   }
+   .font h3{
+      font-size: 2rem;
+   
+   }
+   .font p{
+      font-size:2rem;
+   color: #777;
+   padding:1rem0;
+   line-height: 2;
+   }
+   .font.content{
+      font-size: 2rem;
+      text-transform: uppercase;
+      
+   }
+   .software{
+      font-size:2rem;
+      align-items: center;
+      padding-top: 1rem0;
+      color:#777; 
+   }
+   .software h3{
+      font-size: 2.5rem;
+   }
+   .software p{
+      font-size:1.7rem;
+   color: #777;
+   padding:1rem0;
+   line-height: 2;
+   text-align: justify;
+   }
+   .software.content{
+      font-size: 2rem;
+      text-transform: uppercase;
+   }
+   .computer{
+      font-size:2rem;
+      align-items: center;
+      padding-top: 1rem0;
+      color:#777; 
+   }
+   .computer h3{
+      font-size: 2rem;
+   }
+   .computer p{
+      font-size:1.7rem;
+   color: #777;
+   padding:1rem0;
+   line-height: 2;
+   text-align: justify;
+   }
+   .computer.content{
+      font-size: 2rem;
+      
+   }
+   .botany{
+      font-size: 2rem;
+      align-items: center;
+      padding:1rem0;
+      color: #777;
+   }
+   .botany h3{
+      font-size: 3rem;
+   }
+   .botany p{
+      font-size: 1.7rem;
+   color: #777;
+   padding:1rem0;
+   margin: 20px;
+   line-height: 2;
+   }
+   .botany.content{
+      font-size: 2rem;
+   }
+   .electronics{
+      font-size: 2rem;
+      align-items: center;
+      padding:1rem0;
+      color: #777;
+   }
+   .electronics h3{
+      font-size:3rem;
+
+   }
+   .electronics p{
+      font-size:1.7rem;
+   color: #777;
+   padding:1rem0;
+   margin: 20px;
+   line-height: 2.5;
+   text-align: justify;
+   }
+   .electronics.content{
+      font-size: 2rem;
+   }
+   .physics{
+      font-size: 2rem;
+      align-items: center;
+      padding:1rem0;
+      color: #777;
+   }
+   .physics h3{
+      font-size: 3rem;
+      background-color:lightgray;
+   }
+   .physics p{
+      font-size:2rem;
+      color: #777;
+      padding:1rem0;
+      line-height: 2;
+      text-align: justify;
+      text-align: center;
+   }
+   .physics.content{
+      font-size: 2rem;
+   }
+   .mathematics{
+      font-size: 2rem;
+      align-items: center;
+      padding:1rem0;
+      color: #777;
+   }
+   .mathematics h3{
+      font-size: 2.5rem;
+      background-color: lightsteelblue;
+   }
+   .mathematics p{
+      font-size:2rem;
+      color: #777;
+      padding:1rem0;
+      line-height: 2;
+      text-align: justify;
+      text-align: center;
+   }
+   .biotechnology{
+      font-size: 2rem;
+      align-items: center;
+      padding:1rem0;
+      color: #777;
+   }
+   .biotechnology h3{
+      font-size: 2.5rem;
+   }
+   .biotechnology p{
+      font-size:1.7rem;
+      color: #777;
+      padding:1rem0;
+      margin: 20px;
+      line-height: 2;
+   
+   }
+   .contact.contact-form{
+      padding:2rem;
+      background-color: #eee;
+   }
+   .contact.contact-form.flex{
+      display:flex;
+      flex-warp:warp;
+      gap:2;
+   }
+   .contact.contact-form.flex.inputbox{
+      flex:1 1 41rem;
+   }
+   .contact.contact-form.flex.inputbox input{
+      width:100%;
+      padding:1.2 1.6;
+      font-size:1.6rem;
+      color: #777;
+      text-transform: none;
+      margin-top: 1.5rem;
+      border:var(--border);
+   }
+   .contact..contact-form.flex.inputbox input:focus{
+      background: #222;
+   color: white;
+   }
+   .contact.contact-form.flex.inputbox span{
+      font-size: 1.5rem;
+      color:#777;
+   }
+   .contact.contact-form.btn{
+      margin-top: 2rem;
+
+   }
+   .contact h3{
+      font-size: 3rem;
+   }
+   .contact.content{
+      font-size: 2rem;
+      color:#777;
+      text-align:justify;
+   }
+   .contact p{
+      font-size:2rem;
+      color: #777;
+      padding:1rem0;
+      line-height: 2;
+   }
+   .contact.border{
+      border-style:double;
+      border: black;
+      width="100%;
+      height="100%;
+   }
+   .contact{
+font-size: 2rem;
+
+   
+
+   }
+   .courses{
+      font-size: 2rem;
+      align-items: center;
+      padding:1rem0;
+      color:black;
+   }
+   .courses h3{
+      font-size: 3rem;
+   }
+   .courses p{
+      font-size: 2rem;
+      padding:1rem0;
+      line-height:2;
+      color:black;
+   }
+   
+
+.voc{
+   font-size:2rem;
+      padding:1rem0;
+      color:#777;
+      line-height:2;
+}
+.voc h3{
+font-size: 2.5rem;
+}
+.voc p{
+      text-align: justify;
+      padding:1rem0;
+      color:#777;
+}
+   .msc{
+      font-size:2rem;
+      padding:1rem0;
+      color:#777;
+      line-height:2;
+   }
+
+.msc h3{
+   font-size: 2.5rem;
+}
+.msc p{
+      text-align: justify;
+      padding:1rem0;
+      color: #777;
+}
+.bsc{
+   font-size:2rem;
+   padding:1rem0;
+   color:#777;
+   line-height:2;  
+}
+   
+.bsc h3{
+   font-size: 2.5rem;
+}
+.bsc p{
+      text-align: justify;
+      padding:1rem0;
+      color: #777;
+}
+
+
+
+
+
+.footer{
+background-image: url(images\footer-bg.jpg) no repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.box-container{
+   font-size:2rem;
+   display:grid;
+   text-align:center;
+   gap:2rem
+   margin:2rem;
+   padding-bottom:2rem;
+   color: #fff;
+   
+}
+   
+.box-container h3{
+   -ms-text-align-last: justify;
+   margin-top: 2rem;
+   padding-left: 1rem; 
+   font-size: 2.5rem;
+}
+.a{
+   word-spacing: 2px;
+   font-size: 2rem;
+}
+.new{
+   background-image: url("images/footer.jpg");
+   word-spacing: 10px;
+   padding: 60px;
+}
+.table{
+   text-align: center;
+   width: 300;
+  height: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
