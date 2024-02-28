@@ -314,28 +314,46 @@ color:var(--black)
       line-height: 2;
    
    }
-   .contact.contact-form{
-      padding:2rem;
+   .contact-form{
+      padding:10rem;
       background-color: #eee;
    }
-   .contact.contact-form.flex{
+   /* .contact.contact-form.flex{
       display:flex;
       flex-warp:warp;
       gap:2;
-   }
-   .contact.contact-form.flex.inputbox{
+   } */
+   /* .contact.contact-form.flex.inputbox{
       flex:1 1 41rem;
-   }
-   .contact.contact-form.flex.inputbox input{
-      width:100%;
-      padding:1.2 1.6;
+   } */
+   /* .contact.contact-form.flex.inputbox input{
+      width:200px;
+      height: 20px;
+      padding:5px;
       font-size:1.6rem;
       color: #777;
       text-transform: none;
       margin-top: 1.5rem;
       border:var(--border);
+   } */
+
+   .flex{
    }
-   .contact..contact-form.flex.inputbox input:focus{
+
+   .form_box{
+      width: 50%;
+      text-align: left;
+   }
+
+   .flex input{
+      padding: 10px;
+      width: 500px;
+      /* border: 1px solid black; */
+      border-radius: 5px;
+      
+   }
+
+   .flex input:focus{
       background: #222;
    color: white;
    }
@@ -343,8 +361,14 @@ color:var(--black)
       font-size: 1.5rem;
       color:#777;
    }
-   .contact.contact-form.btn{
-      margin-top: 2rem;
+   .button{
+      width: 10rem;
+      padding: 5px;
+      background-color: var(--main-color);
+      color: white;
+      border: 0.8px solid black;
+      border-radius: 5px;
+      margin-right:415px ;
 
    }
    .contact h3{
@@ -364,15 +388,13 @@ color:var(--black)
    .contact.border{
       border-style:double;
       border: black;
-      width="100%;
-      height="100%;
+      width:100%;
+      height:100%;
    }
    .contact{
-font-size: 2rem;
-
-   
-
+      font-size: 2rem;
    }
+
    .courses{
       font-size: 2rem;
       align-items: center;
